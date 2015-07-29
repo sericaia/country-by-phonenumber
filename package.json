@@ -2,15 +2,18 @@
   "name": "phonenumber",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/module.js",
   "dependencies": {
     "countrycode": "0.0.2",
     "google-libphonenumber": "^1.0.3"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "code": "^1.4.1",
+    "lab": "^5.13.0"
   },
-  "author": "",
+  "scripts": {
+    "test": "lab"
+  },
+  "author": "Daniela Borges",
   "license": "ISC"
 }
